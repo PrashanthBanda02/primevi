@@ -25,7 +25,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <span className="app-name">Primevi</span>
+        <Link exact to="/"><span className="app-name">Primevi</span></Link>
       </div>
       <div className="navbar-right">
         <Link exact to="/popular" className="nav-link" activeClassName="active-link">Popular</Link>
